@@ -2,7 +2,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ page contentType="text/html; charset=UTF-8" %>
     <div class="container-fluid">
-        <form action="/andersen_practice02-1.0-SNAPSHOT/person" method="post">
+        <form action="/andersen_practice02/person" method="post">
             <table>
                 <tr>
                     <td>
@@ -33,7 +33,7 @@
             <td><c:out value="${person.getName()}"/></td>
             <td><c:out value="${person.getLastname()}"/></td>
             <td>
-                 <form action="/andersen_practice02-1.0-SNAPSHOT/person" method="post">
+                 <form action="/andersen_practice02/person" method="post">
                     <input type="hidden" name="user_id" value="${person.getId()}">
                     <button style="position: center" type="submit" class="btn btn-secondary">Удалить</button>
                  </form>
