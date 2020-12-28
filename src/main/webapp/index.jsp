@@ -7,7 +7,7 @@
                 <tr>
                     <td>
                         <input type="text" class="form-control" name="name" aria-describedby="passwordHelpBlock"
-                               placeholder="Имя">
+                               placeholder="Имя_">
                     </td>
                     <td>
                         <input type="text" class="form-control" name="lastname" aria-describedby="passwordHelpBlock"
